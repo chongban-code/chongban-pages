@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>宠伴隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8f3ec;
+      --surface: #fffaf3;
+      --text: #2f2924;
+      --muted: #6f6258;
+      --line: #e8d8c6;
+      --accent: #d46f5f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191614;
+        --surface: #24201d;
+        --text: #f5eee7;
+        --muted: #c9b8aa;
+        --line: #3a312b;
+        --accent: #ef9a86;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      box-sizing: border-box;
+      width: min(860px, 100%);
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: clamp(22px, 5vw, 44px);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.18;
+    }
+    h2 {
+      margin: 34px 0 10px;
+      font-size: 22px;
+    }
+    p, ul {
+      margin: 10px 0;
+    }
+    ul {
+      padding-left: 1.3em;
+    }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 26px;
+    }
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>宠伴隐私政策</h1>
+      <p class="meta">更新日期：2026年6月11日<br>生效日期：App Store 首次发布日起生效</p>
+
+      <p>宠伴是一款私密记录和宠物陪伴工具。我们把“少收集、先说明、用户可控”作为首版隐私原则。</p>
+
+      <h2>我们保存什么</h2>
+      <ul>
+        <li>宠物资料：名称、类型、头像、本地创建时间。</li>
+        <li>聊天内容：文字消息、图片消息、语音消息、本地文件路径、会话时间。</li>
+        <li>设置项：隐私锁、宠物语、统计开关、宠伴权益、导出次数。</li>
+      </ul>
+      <p>这些内容默认保存在你的设备本地，不会因为使用基础功能而上传到我们的服务器。</p>
+
+      <h2>系统权限</h2>
+      <ul>
+        <li>Face ID / Touch ID / 设备密码：用于启动隐私锁，验证后进入 App。</li>
+        <li>相册：用于选择宠物头像或聊天图片。</li>
+        <li>麦克风：用于录制用户主动发送的语音消息，未使用语音功能时不会录音。</li>
+      </ul>
+
+      <h2>统计分析</h2>
+      <p>如果你同意启用匿名统计，我们会通过友盟等第三方统计服务了解功能使用情况，例如启动、创建宠物、发送消息、导出备份、购买流程状态。</p>
+      <p>我们不会把聊天正文、宠物名称、图片、语音、备份内容或本地文件路径发送给统计服务。</p>
+      <p>你可以在 App 内设置页关闭匿名统计。关闭后，后续使用行为不再主动发送到统计服务。</p>
+
+      <h2>付费与购买</h2>
+      <p>宠伴内购由 Apple App Store 处理。我们通过 StoreKit 获取购买状态，用于解锁宠伴 Pro 功能。付款信息由 Apple 处理，我们不会获取你的银行卡或支付凭据。</p>
+      <p>如果你购买自动续订订阅，订阅、续费、取消和退款由 Apple 按 App Store 规则处理。你可以在 Apple ID 的订阅管理中取消自动续订。</p>
+
+      <h2>数据导出</h2>
+      <p>你可以在设置页导出 JSON 备份。1.0 的 JSON 备份包含宠物、对话、文字消息、图片和语音消息的本机文件引用，不会把图片或语音文件本身打包进去。备份文件由你自行保存或分享，请妥善保管。</p>
+
+      <h2>联系我们</h2>
+      <p>支持页面：<a href="./support.html">https://chongban-code.github.io/chongban/support.html</a></p>
+    </article>
+  </main>
+</body>
+</html>

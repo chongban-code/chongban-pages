@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>宠伴支持</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8f3ec;
+      --surface: #fffaf3;
+      --text: #2f2924;
+      --muted: #6f6258;
+      --line: #e8d8c6;
+      --accent: #d46f5f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191614;
+        --surface: #24201d;
+        --text: #f5eee7;
+        --muted: #c9b8aa;
+        --line: #3a312b;
+        --accent: #ef9a86;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      box-sizing: border-box;
+      width: min(820px, 100%);
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: clamp(22px, 5vw, 44px);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1.18;
+    }
+    h2 {
+      margin: 30px 0 10px;
+      font-size: 22px;
+    }
+    p, ul {
+      margin: 10px 0;
+    }
+    ul {
+      padding-left: 1.3em;
+    }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>宠伴支持</h1>
+      <p class="meta">这里用于 App Store 支持 URL。我们会优先处理安装、购买、恢复购买、隐私和数据备份相关问题。</p>
+
+      <h2>联系我们</h2>
+      <p>支持页面：<a href="https://chongban-code.github.io/chongban/support.html">https://chongban-code.github.io/chongban/support.html</a></p>
+
+      <h2>常见问题</h2>
+      <ul>
+        <li>购买或恢复购买异常：请确认当前 Apple ID 与购买时使用的 Apple ID 一致，然后在 App 内点击“恢复购买”。</li>
+        <li>隐私锁无法通过：宠伴使用 iOS 系统验证，请先确认设备已设置 Face ID、Touch ID 或锁屏密码。</li>
+        <li>备份文件风险：JSON 备份由你主动导出和保存，请避免分享给不可信对象。</li>
+      </ul>
+
+      <h2>隐私政策</h2>
+      <p><a href="./privacy.html">查看宠伴隐私政策</a></p>
+    </section>
+  </main>
+</body>
+</html>
